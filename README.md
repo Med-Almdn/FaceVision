@@ -11,11 +11,6 @@ FaceVision is a modular and scalable facial recognition system designed for real
 - **Image-Based Encoding**: Converts facial images into 128-dimensional numerical vectors for accurate identification.
 - **Modern GUI**: Built using CustomTkinter, providing a responsive and visually appealing user interface.
 - **Database Management**: Uses SQLite for secure and efficient storage of facial encodings, metadata, and images.
-- **Icons**: Various icons integrated in the interface for better user experience, such as:
-  - **Person Icon** for adding or managing personnel
-  - **Camera Icon** for accessing live streaming
-  - **Database Icon** for managing the database
-  - **Search Icon** for personnel search functionality
 
 ## Architecture
 
@@ -78,6 +73,4 @@ FaceVision is structured into three primary layers:
 - **image_folder/**: Stores user-uploaded images.
 - **face_data.db**: SQLite database file.
 
-## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
